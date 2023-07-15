@@ -1,13 +1,52 @@
 .titre {
   font-weight: bolder;
   font-size: 50px;
+}
 
-  body {
-    background-color: snow;
-    font-family: "Trebuchet MS", sans-serif;
-    text-align: justify;
-  }
+h1 {
+  color: aquamarine;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Lilliput";
+}
 
-  margin-bottom: 10px;
-  border-radius: 100%;
+body {
+  background-color: rgb(210, 117, 219);
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: justify;
+}
+
+@font-face {
+  font-family: "Lilliput";
+  src: url("LILLIPUT.TTF");
+}
+
+.bouton {
+  background-color: aquamarine;
+  padding: 5px;
+  width: 85px;
+  display: inline-block;
+  text-align: center;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: row;
+}
+
+.photoid {
+  background-color: white;
+  width: 25rem;
+  padding: 10px 15px;
+  padding-bottom: 60px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+#presentation p {
+}
+
+.photoid img {
+  width: 100%;
 }
